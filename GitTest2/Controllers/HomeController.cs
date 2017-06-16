@@ -32,5 +32,11 @@ namespace GitTest2.Controllers
             
             return View();
         }
+        public ActionResult Test2()
+        {
+            ViewBag.Message = "Your test2 page.";
+
+            return View();
+        }
     }
 }
